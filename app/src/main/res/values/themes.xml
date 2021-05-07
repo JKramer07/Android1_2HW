@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Android1" parent="Theme.MaterialComponents.Light.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="main_text">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+    </style>
+    <style name="some_id">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="some_id">
+
+\u00D0\u0097\u00D0\u00B0\u00D0\u00B1\u00D1\u008B\u00D0\u00BB \u00D0\u00BF\u00D0\u00B0\u00D1\u0080\u00D0\u00BE\u00D0\u00BB\u00D1\u008C?  \u00D0\u009D\u00D0\u00B0\u00D0\u00B6\u00D0\u00BC\u00D0\u00B8 \u00D1\u0081\u00D1\u008E\u00D0\u00B4\u00D0\u00B0.
+</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewNoteActivity">
+
+    <EditText
+        android:id="@+id/title_et"
+        android:hint="Title"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textSize="24dp"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/description_et"
+        android:hint="Description"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textSize="24dp"
+        android:layout_below="@+id/title_et"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_below="@+id/description_et"
+        android:layout_centerInParent="true"
+        android:text="Add"
+        android:textColor="@color/dark_grey"
+        android:background="@drawable/btn"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

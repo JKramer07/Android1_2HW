@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp">
+
+    <TextView
+        android:id="@+id/first_txt"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/description_txt"
+        android:layout_alignTop="@+id/name_txt"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_grey"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/name_txt"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/first_txt"
+        android:layout_marginLeft="30sp"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/dark_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/description_txt"
+        android:layout_alignTop="@+id/name_txt"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/first_txt"
+        android:layout_marginLeft="30sp"
+        android:text="Description"
+        android:textSize="17sp"
+        android:textColor="@color/dark_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/date_txt"
+        android:text="06.05.2021"
+        android:textSize="17dp"
+        android:textColor="@color/dark_grey"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/description_txt"
+        android:layout_alignTop="@+id/name_txt"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_below="@+id/description_txt"
+        android:layout_marginTop="10dp"
+        android:background="@color/transparent_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="0.3dp"/>
+
+</RelativeLayout>
